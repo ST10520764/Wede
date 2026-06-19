@@ -138,3 +138,37 @@ footer {
   color: #fff;
   cursor: pointer;
 }
+.search-container {
+  margin: 20px 0;
+}
+
+#searchBox {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.filter-container {
+  margin: 20px 0;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #005fa3;
+}
+
+.filter-btn.active {
+  background-color: #003f73;
+}
