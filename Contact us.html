@@ -20,13 +20,33 @@
     </header>
 
     <section>
-        <center>
+    <center>
         <h2>Contact Us</h2>
         <p>Email: uthingoice@gmail.com</p>
         <p>Phone: +27 71 987 6543</p>
         <p>Owners: Nduna & Anne Madikane</p>
-        </center>
-    </section>
+
+        
+        <form id="contactForm" novalidate>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+            <span class="error" id="messageError"></span><br><br>
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form>
+    </center>
+</section>
+
+
 
     <footer>
         <p align="center">&copy; 2026 Uthingo Ice. All rights reserved.</p>
